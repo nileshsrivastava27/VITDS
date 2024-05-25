@@ -8,12 +8,14 @@ import Signup from "./pages/Signup/Signup";
 import Counter from "./components/Counter";
 import SurveliancePage from "./pages/SurveliancePage";
 import GuestRegister from "./pages/GuestRegister";
+import MainPage from "./pages/MainPage";
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
+          <Route path = "/main" element={<MainPage/>}/>
           <Route path="/surveillance/" element={ <SurveliancePage />}>
             <Route path = ":vehicleNumber" element = {<SurveliancePage/>} />
           </Route>

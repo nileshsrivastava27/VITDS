@@ -14,7 +14,7 @@ const Login = () => {
 
     if (email === "nilesh@test.com" && password === "password123") {
       console.log("Credentials are correct, navigating to /surveillance");
-      navigate("/surveillance");
+      navigate("/");
     } else {
       console.log("Invalid credentials!");
       alert("Invalid credentials!");

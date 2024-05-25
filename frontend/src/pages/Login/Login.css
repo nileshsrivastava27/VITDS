@@ -85,3 +85,19 @@
   font-weight: 450;
   font-size: 19px;
 }/*# sourceMappingURL=Login.css.map */
+
+.loginpage-gridright button{
+  height: 70px;
+  width: 250px;
+  margin: 20px;
+  background: #ffc107;
+  border-radius: 20px;
+}
+
+.loginpage-gridleft h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 300px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
